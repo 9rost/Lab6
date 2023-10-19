@@ -52,16 +52,16 @@ class Person {
   
   document.writeln("Массив людей:");
   people.forEach((person) => {
-    document.writeln(`Имя: ${person.name}, Возраст: ${person.age}`);
+    document.writeln(`Имя: ${person.name},<br> Возраст: ${person.age}<br>`);
   });
   
   document.writeln("\nМассив машин:");
   cars.forEach((car) => {
-    document.writeln(`Марка: ${car.brand}, Год выпуска: ${car.year}`);
+    document.writeln(`Марка: ${car.brand},<br> Год выпуска: ${car.year}<br>`);
   });
   
   document.writeln("\nМассив книг:");
   books.forEach((book) => {
-    document.writeln(`Название: ${book.title}, Дата публикации: ${book.publicationDate}`);
+    document.writeln(`Название: ${book.title},<br> Дата публикации: ${book.publicationDate}<br>`);
   });
       
